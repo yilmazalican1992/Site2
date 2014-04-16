@@ -4,6 +4,7 @@
 <h3>this is the first step for building my future goes San Jose, California :P </h1>
 <h3>my github yilmazalican1992 </h1>
 <img src="https://pine.fm/images/PoweredByRuby.png" />
+<img src="https://www.codeship.io/projects/ea8fbcf0-a733-0131-c660-26855b373a72/status"/>
 <br>
 <script>
   window.fbAsyncInit = function() {
@@ -60,8 +61,12 @@
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
       console.log('Good to see you, ' + response.name + '.');
+	
     });
   }
+FB.ui({method: 'apprequests',
+  message: 'My Great Request'
+}, requestCallback);
 </script>
 
 <!--
