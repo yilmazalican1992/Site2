@@ -22,8 +22,7 @@ dd
 * Deployment instructions
 
 * ...
-aaa
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.aa
-![Codeship Status](https://www.codeship.io/projects/162c3bb0-a727-0131-c660-26855b373a72/status)
+![Codeship Status](https://www.codeship.io/projects/ea8fbcf0-a733-0131-c660-26855b373a72/status)
